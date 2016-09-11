@@ -15,7 +15,6 @@
 		2758E4861D8445BF000668CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2758E4841D8445BF000668CB /* LaunchScreen.storyboard */; };
 		2758E4911D8445F0000668CB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758E48E1D8445F0000668CB /* FBSDKCoreKit.framework */; };
 		2758E4921D8445F0000668CB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758E48F1D8445F0000668CB /* FBSDKLoginKit.framework */; };
-		2758E4931D8445F0000668CB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758E4901D8445F0000668CB /* FBSDKShareKit.framework */; };
 		2758E4951D8447CA000668CB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758E4941D8447CA000668CB /* Bolts.framework */; };
 		2758E4981D84504B000668CB /* PostStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2758E4971D84504B000668CB /* PostStatusViewController.m */; };
 		27760CE41D854E3300AF30DA /* FacebookDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27760CE31D854E3300AF30DA /* FacebookDecorator.m */; };
@@ -37,7 +36,6 @@
 		2758E4871D8445BF000668CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2758E48E1D8445F0000668CB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		2758E48F1D8445F0000668CB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		2758E4901D8445F0000668CB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		2758E4941D8447CA000668CB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		2758E4961D84504A000668CB /* PostStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostStatusViewController.h; sourceTree = "<group>"; };
 		2758E4971D84504B000668CB /* PostStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostStatusViewController.m; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			files = (
 				2758E4921D8445F0000668CB /* FBSDKLoginKit.framework in Frameworks */,
 				2758E4911D8445F0000668CB /* FBSDKCoreKit.framework in Frameworks */,
-				2758E4931D8445F0000668CB /* FBSDKShareKit.framework in Frameworks */,
 				2758E4951D8447CA000668CB /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,7 +118,6 @@
 				2758E4941D8447CA000668CB /* Bolts.framework */,
 				2758E48E1D8445F0000668CB /* FBSDKCoreKit.framework */,
 				2758E48F1D8445F0000668CB /* FBSDKLoginKit.framework */,
-				2758E4901D8445F0000668CB /* FBSDKShareKit.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
