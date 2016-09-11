@@ -13,6 +13,15 @@
 		2758E4811D8445BF000668CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2758E47F1D8445BF000668CB /* Main.storyboard */; };
 		2758E4831D8445BF000668CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2758E4821D8445BF000668CB /* Assets.xcassets */; };
 		2758E4861D8445BF000668CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2758E4841D8445BF000668CB /* LaunchScreen.storyboard */; };
+		2758E4911D8445F0000668CB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758E48E1D8445F0000668CB /* FBSDKCoreKit.framework */; };
+		2758E4921D8445F0000668CB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758E48F1D8445F0000668CB /* FBSDKLoginKit.framework */; };
+		2758E4931D8445F0000668CB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758E4901D8445F0000668CB /* FBSDKShareKit.framework */; };
+		2758E4951D8447CA000668CB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758E4941D8447CA000668CB /* Bolts.framework */; };
+		2758E4981D84504B000668CB /* PostStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2758E4971D84504B000668CB /* PostStatusViewController.m */; };
+		27760CE41D854E3300AF30DA /* FacebookDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27760CE31D854E3300AF30DA /* FacebookDecorator.m */; };
+		27760CE71D85552300AF30DA /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 27760CE61D85552300AF30DA /* UITextView+Placeholder.m */; };
+		27760CEA1D855AFD00AF30DA /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 27760CE91D855AFD00AF30DA /* Constants.m */; };
+		27760CEC1D8571BD00AF30DA /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 27760CEB1D8571BD00AF30DA /* fb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,19 @@
 		2758E4821D8445BF000668CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2758E4851D8445BF000668CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2758E4871D8445BF000668CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2758E48E1D8445F0000668CB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2758E48F1D8445F0000668CB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2758E4901D8445F0000668CB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		2758E4941D8447CA000668CB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2758E4961D84504A000668CB /* PostStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostStatusViewController.h; sourceTree = "<group>"; };
+		2758E4971D84504B000668CB /* PostStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostStatusViewController.m; sourceTree = "<group>"; };
+		27760CE21D854E3300AF30DA /* FacebookDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookDecorator.h; sourceTree = "<group>"; };
+		27760CE31D854E3300AF30DA /* FacebookDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookDecorator.m; sourceTree = "<group>"; };
+		27760CE51D85552300AF30DA /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		27760CE61D85552300AF30DA /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		27760CE81D855AFD00AF30DA /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		27760CE91D855AFD00AF30DA /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		27760CEB1D8571BD00AF30DA /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2758E4921D8445F0000668CB /* FBSDKLoginKit.framework in Frameworks */,
+				2758E4911D8445F0000668CB /* FBSDKCoreKit.framework in Frameworks */,
+				2758E4931D8445F0000668CB /* FBSDKShareKit.framework in Frameworks */,
+				2758E4951D8447CA000668CB /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,14 +84,24 @@
 		2758E4751D8445BF000668CB /* AwesomeStatus */ = {
 			isa = PBXGroup;
 			children = (
+				27760CE51D85552300AF30DA /* UITextView+Placeholder.h */,
+				27760CE61D85552300AF30DA /* UITextView+Placeholder.m */,
 				2758E4791D8445BF000668CB /* AppDelegate.h */,
 				2758E47A1D8445BF000668CB /* AppDelegate.m */,
 				2758E47C1D8445BF000668CB /* ViewController.h */,
 				2758E47D1D8445BF000668CB /* ViewController.m */,
+				2758E4961D84504A000668CB /* PostStatusViewController.h */,
+				2758E4971D84504B000668CB /* PostStatusViewController.m */,
+				27760CE21D854E3300AF30DA /* FacebookDecorator.h */,
+				27760CE31D854E3300AF30DA /* FacebookDecorator.m */,
+				27760CE81D855AFD00AF30DA /* Constants.h */,
+				27760CE91D855AFD00AF30DA /* Constants.m */,
 				2758E47F1D8445BF000668CB /* Main.storyboard */,
 				2758E4821D8445BF000668CB /* Assets.xcassets */,
 				2758E4841D8445BF000668CB /* LaunchScreen.storyboard */,
 				2758E4871D8445BF000668CB /* Info.plist */,
+				27760CEB1D8571BD00AF30DA /* fb.png */,
+				2758E48D1D8445D3000668CB /* Frameworks */,
 				2758E4761D8445BF000668CB /* Supporting Files */,
 			);
 			path = AwesomeStatus;
@@ -77,6 +113,17 @@
 				2758E4771D8445BF000668CB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2758E48D1D8445D3000668CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2758E4941D8447CA000668CB /* Bolts.framework */,
+				2758E48E1D8445F0000668CB /* FBSDKCoreKit.framework */,
+				2758E48F1D8445F0000668CB /* FBSDKLoginKit.framework */,
+				2758E4901D8445F0000668CB /* FBSDKShareKit.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2758E4861D8445BF000668CB /* LaunchScreen.storyboard in Resources */,
+				27760CEC1D8571BD00AF30DA /* fb.png in Resources */,
 				2758E4831D8445BF000668CB /* Assets.xcassets in Resources */,
 				2758E4811D8445BF000668CB /* Main.storyboard in Resources */,
 			);
@@ -150,7 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2758E47E1D8445BF000668CB /* ViewController.m in Sources */,
+				27760CE71D85552300AF30DA /* UITextView+Placeholder.m in Sources */,
 				2758E47B1D8445BF000668CB /* AppDelegate.m in Sources */,
+				2758E4981D84504B000668CB /* PostStatusViewController.m in Sources */,
+				27760CE41D854E3300AF30DA /* FacebookDecorator.m in Sources */,
+				27760CEA1D855AFD00AF30DA /* Constants.m in Sources */,
 				2758E4781D8445BF000668CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +317,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AwesomeStatus/Frameworks",
+				);
 				INFOPLIST_FILE = AwesomeStatus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pradeep.AwesomeStatus;
@@ -276,6 +332,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AwesomeStatus/Frameworks",
+				);
 				INFOPLIST_FILE = AwesomeStatus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pradeep.AwesomeStatus;
@@ -302,6 +362,7 @@
 				2758E48C1D8445BF000668CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
